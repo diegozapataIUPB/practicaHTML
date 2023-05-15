@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Istyle.css">
+    <title>HTML_1</title>
+
+    <script>
+                function validarFormulario() {
+                    var nombre = document.getElementById("name").value.trim();
+                    var direccion = document.getElementById("dir").value.trim();
+                    var telefono = document.getElementById("tel").value.trim();
+                    var correo = document.getElementById("mail").value.trim();
+                    var ciudad = document.getElementById("city").value.trim();
+                    var edad = document.getElementById("age").value.trim();
+
+                    if (nombre == "" || direccion == "" || telefono == "" || correo == "" || ciudad == "" || edad == "") {
+                        alert("Por favor, complete todos los campos.");
+                        return false;
+                    }
+                    
+                    return true;
+                }
+
+            </script>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tabla.html">Tabla</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+    </nav>
+    <img src="./img/masgas.png" alt="Logo de MasGas Medellín">
+    <!--<img src="./img/img.png" alt="Imagen de prueba"/>-->
+  </header>  
+  <main>
+    <h1>FORMULARIO</h1>
+  <section>
+   
+        <div class="form-floating">
+            <label for="floatingInput">Nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">        
+         </div>
+        <div class="form-floating">
+            <label for="floatingInput">Dirección</label>
+            <input type="text" class="form-control" id="dir" placeholder="Dirección">        
+        </div>
+        <div class="form-floating">
+            <label for="floatingInput">Celular</label>
+            <input type="tel" class="form-control" id="tel" placeholder="Teléfono">        
+        </div>
+        <div class="form-floating">
+            <label for="floatingInput">Correo</label>
+             <input type="email" class="form-control" id="mail" placeholder="name@example.com">        
+        </div>
+        <div class="form-floating mb-3">
+            <label for="floatingInput">Ciudad</label>
+            <input type="text" class="form-control" id="city" placeholder="example= Medellín">        
+         </div>
+        <div class="form-floating">
+            <label for="floatingInput">Edad</label>
+            <input type="text" class="form-control" id="age" placeholder="Ingresa tu edad">        
+         </div>
+      <button type="submit" onclick="return validarFormulario();">Guardar</button>
+  
+  </section>
+  </main>
+  <footer> Diego Alejandro Zapata Monsalve</footer>
+</body>
+</html>

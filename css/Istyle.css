@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     width: 1024px;
+    height: 720px;
+   /* background: #a8cee2;*/
+}
+header{
+    width: 100%;
+    height: 40%;
+    /*background: #afaaa3;*/
+}
+nav{
+    width: 100%;
+    height: 25%;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color:  #002d47;
+    
+}
+header img{
+    width: 100%;
+    height: 75% ;
+}
+main{
+    width: 100%;
+    height: 50%;
+    /*background:#afaaa3;*/
+}
+aside{
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:  #666d70;
+}
+main aside ul li a {
+    display: block;
+    padding: 20px;
+    color:  #002d47;
+    
+}
+main section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #afaaa3;
+}
+main section img{
+    height: 150px;
+    width: 250px;
+    background: #0072c6;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color:  #002d47;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:  #005b99;
+}
+table {
+        border-collapse: collapse;
+        width: 100%;
+        height: 50%;
+      }
+      
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #ddd;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        color:  #002d47;
+      }
+      
+      th {
+        background-color: #f2f2f2;
+}
+iframe{
+    height: 300px;
+    width: 600px;
+}
+div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;    
+}
+   
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    width: 100%;
+    height: 10%;
+    color:  #002d47;
+}
